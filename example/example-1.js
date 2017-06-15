@@ -7,5 +7,5 @@ featureToggles.load(toggles);
  
 // check if a feature is enabled 
 if (featureToggles.isFeatureEnabled('foo')) {
-    console.log('foo');
+    console.log('enable foo');
 }
