@@ -1,0 +1,22 @@
+{
+  "name": "workshop-feature-toggles-nodejs",
+  "version": "1.0.0",
+  "description": "Source Code for workshop feature toggles",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokusenz/workshop-feature-toggles-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gokusenz/workshop-feature-toggles-nodejs/issues"
+  },
+  "homepage": "https://github.com/gokusenz/workshop-feature-toggles-nodejs#readme",
+  "dependencies": {
+    "feature-toggles": "^1.4.0"
+  }
+}
