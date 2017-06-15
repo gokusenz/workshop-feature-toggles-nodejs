@@ -1,11 +1,10 @@
-// define toggles 
-var toggles = {foo: true, bar: false};
- 
-// load them into the module 
-var featureToggles = require('feature-toggles');
-featureToggles.load(toggles);
- 
-// check if a feature is enabled 
-if (featureToggles.isFeatureEnabled('foo')) {
-    console.log('foo');
-}
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World!')
+})
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!')
+})
